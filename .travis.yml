@@ -1,6 +1,9 @@
-osx_image: xcode12.2
-language: swift
-os: osx
-xcode_project: FastlaneCICDSample.xcodeproj
-xcode_scheme: FastlaneCICDSample
-xcode_destination: platform=iOS Simulator,OS=12.0,name=iPhone 12
+#osx_image: xcode12.2
+#language: swift
+#os: osx
+#xcode_project: FastlaneCICDSample.xcodeproj
+#xcode_scheme: FastlaneCICDSample
+#xcode_destination: platform=iOS Simulator,OS=12.0,name=iPhone 12
+
+script:
+- fastlane scan
