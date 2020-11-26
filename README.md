@@ -14,4 +14,7 @@ Step 3: Travis file setup
       language: swift
       osx_image: xcode12.2
       script:
-          - fastlane scan
+          - fastlane scan 
+* Step 3: Save the changes and commit
+
+Step 4: Based on the travis setup for commits / PR travis build runs and you can see the status in Github
